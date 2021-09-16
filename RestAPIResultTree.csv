@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1631621729641,552,CreateUSer,201,Created,Thread Group 1-1,text,true,,910,220,1,1,https://reqres.in/api/users,552,0,156
+1631621730194,320,UpdateUser,200,OK,Thread Group 1-1,text,true,,889,228,1,1,https://reqres.in/api/users/2,320,0,0
+1631621730517,187,DeleteUser,200,OK,Thread Group 1-1,text,true,,1909,336,1,1,https://reqres.in/api/users/2,116,0,50
+1631621730517,116,DeleteUser-0,301,Moved Permanently,Thread Group 1-1,,true,,711,211,1,1,http://reqres.in/api/users/2,116,0,50
+1631621730656,48,DeleteUser-1,200,OK,Thread Group 1-1,text,true,,1198,125,1,1,https://reqres.in/api/users/2,48,0,0
+1631621730705,48,GetUserList,200,OK,Thread Group 1-1,text,true,,1942,130,1,1,https://reqres.in/api/users?page=2,48,0,0
